@@ -10,7 +10,7 @@ on:
 
 jobs:
   renew:
-    runs-on: ubuntu-latest
+    runs-on: linux-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v6   # 从 v3 升级到 v6
